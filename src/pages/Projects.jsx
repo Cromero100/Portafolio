@@ -2,6 +2,7 @@ import React from "react";
 import InfiniteMenu from "../components/InfiniteMenu";
 import ShapeOverlay from "../components/ShapeOverlay";
 import TargetCursor from "../components/TargetCursor";
+import Navbar from "../components/Navbar";
 const Projects = () => {
   const items = [
     {
@@ -67,6 +68,7 @@ const Projects = () => {
 
   return (
     <div className="h-screen h-screen text-white">
+      <Navbar />
       <ShapeOverlay />
       <TargetCursor spinDuration={2} hideDefaultCursor />
       <InfiniteMenu items={items} />

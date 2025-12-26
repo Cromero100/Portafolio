@@ -5,13 +5,13 @@ import BlurText from "../components/BlurText";
 import Shuffle from "../components/Shuffle";
 import TargetCursor from "../components/TargetCursor";
 import Lanyard from "../components/Lanyard";
-import ShapeOverlay from "../components/ShapeOverlay";
 import AnimatedContent from "../components/AnimatedContent";
-
+import Navbar from "../components/Navbar";
 import Balatro from "../components/Balatro";
 function Hero() {
   return (
     <section className="relative w-full min-h-screen flex items-center justify-center text-white overflow-hidden">
+      <Navbar />
       {/* Background visual */}
       <div className="absolute inset-0 z-[-1]">
         <Balatro isRotate={false} mouseInteraction pixelFilter={1000} />
