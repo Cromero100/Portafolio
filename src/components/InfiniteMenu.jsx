@@ -1197,7 +1197,7 @@ export default function InfiniteMenu({ items = defaultItems, scale = 1.0 }) {
             </div>
 
             {/* Bottom Content */}
-            <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-8 mt-auto">
+            <div className=" flex flex-col md:flex-row md:items-end md:justify-between gap-8 mt-auto">
               {/* Text Info */}
               <div className="flex-1 max-w-2xl space-y-4">
                 <h2 className="text-5xl md:text-7xl font-bold tracking-tighter leading-tight text-white drop-shadow-2xl">
@@ -1209,7 +1209,7 @@ export default function InfiniteMenu({ items = defaultItems, scale = 1.0 }) {
                     {activeItem.tags.map((tag, i) => (
                       <span
                         key={i}
-                        className="px-3 py-1 text-xs font-mono border border-white/10 rounded-full bg-white/5 backdrop-blur-md shadow-lg text-cyan-100"
+                        className=" px-3 py-1 text-xs font-mono border border-white/10 rounded-full bg-white/5 backdrop-blur-md shadow-lg text-cyan-100 cursor-target"
                       >
                         {tag}
                       </span>
@@ -1226,9 +1226,9 @@ export default function InfiniteMenu({ items = defaultItems, scale = 1.0 }) {
               <div className="pointer-events-auto">
                 <button
                   onClick={handleButtonClick}
-                  className="group relative flex items-center gap-3 px-8 py-4 bg-white/5 backdrop-blur-xl border border-white/10 rounded-full hover:bg-white/10 transition-all duration-300 overflow-hidden shadow-[0_0_30px_rgba(255,255,255,0.1)] hover:shadow-[0_0_50px_rgba(0,255,255,0.2)]"
+                  className=" cursor-target group relative flex items-center gap-3 px-8 py-4 bg-white/5 backdrop-blur-xl border border-white/10 rounded-full hover:bg-white/10 transition-all duration-300 overflow-hidden shadow-[0_0_30px_rgba(255,255,255,0.1)] hover:shadow-[0_0_50px_rgba(0,255,255,0.2)]"
                 >
-                  <span className="relative z-10 text-sm font-bold tracking-wider uppercase text-white">
+                  <span className=" relative z-10 text-sm font-bold tracking-wider uppercase text-white">
                     Ver Proyecto
                   </span>
                   <span className="relative z-10 text-xl transition-transform group-hover:translate-x-1 duration-300 text-cyan-300">

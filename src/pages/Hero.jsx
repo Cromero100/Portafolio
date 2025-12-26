@@ -5,7 +5,7 @@ import BlurText from "../components/BlurText";
 import Shuffle from "../components/Shuffle";
 import TargetCursor from "../components/TargetCursor";
 import Lanyard from "../components/Lanyard";
-
+import ShapeOverlay from "../components/ShapeOverlay";
 import AnimatedContent from "../components/AnimatedContent";
 
 import Balatro from "../components/Balatro";
@@ -37,39 +37,17 @@ function Hero() {
             />
           </span>
 
-          {/* Title */}
-          {/* <h1 className="flex flex-wrap items-center gap-3 text-5xl md:text-7xl font-extrabold leading-[1.1] tracking-tight">
-            <SplitText
-              text="Hola, soy"
-              splitType="chars"
-              from={{ opacity: 0, y: 40 }}
-              to={{ opacity: 1, y: 0 }}
-              className="inline-block text-white"
-            />
-            <SplitText
-              text="Cristian!"
-              className="inline-block text-red-400"
-              delay={100}
-              duration={0.6}
-              ease="power3.out"
-              splitType="chars"
-              from={{ opacity: 0, y: 40 }}
-              to={{ opacity: 1, y: 0 }}
-              threshold={0.1}
-              rootMargin="-100px"
-            />
-          </h1> */}
           <h1 className="flex flex-wrap items-center gap-3 text-5xl md:text-7xl lg:text-8xl font-extrabold leading-[1.05] tracking-tight">
             <SplitText
               text="Hola, soy"
               splitType="chars"
               from={{ opacity: 0, y: 40 }}
               to={{ opacity: 1, y: 0 }}
-              className="inline-block  text-white/95"
+              className="inline-block overflow-visible  text-white/95"
             />
             <SplitText
               text="Cristian!"
-              className="inline-block bg-gradient-to-br from-red-400 via-red-500 to-red-600 bg-clip-text text-red-400"
+              className="inline-block bg-gradient-to-br from-red-400 via-red-500 to-red-600 bg-clip-text text-red-600"
               delay={100}
               duration={0.6}
               ease="power3.out"
@@ -111,7 +89,7 @@ function Hero() {
 
             <AnimatedContent>
               <a
-                href="#projects"
+                href="proyectos"
                 className="cursor-target px-7 py-3 rounded-xl 
                 bg-gradient-to-r from-red-500 to-red-600
                 hover:from-red-600 hover:to-red-700
@@ -124,13 +102,13 @@ function Hero() {
 
             <AnimatedContent>
               <a
-                href="#contact"
+                href="sobremi"
                 className="cursor-target px-7 py-3 rounded-xl 
                 border border-white/20
                 hover:border-red-400 hover:text-red-400
                 backdrop-blur transition-all font-medium"
               >
-                Contáctame
+                Sobre mí
               </a>
             </AnimatedContent>
           </div>

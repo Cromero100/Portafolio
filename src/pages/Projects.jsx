@@ -1,5 +1,7 @@
 import React from "react";
 import InfiniteMenu from "../components/InfiniteMenu";
+import ShapeOverlay from "../components/ShapeOverlay";
+import TargetCursor from "../components/TargetCursor";
 const Projects = () => {
   const items = [
     {
@@ -46,10 +48,27 @@ const Projects = () => {
       description: "Aplicación móvil para meditación y bienestar mental.",
       tags: ["Kotlin"],
     },
+    {
+      image: "src/assets/Proyectos/FocusUp.jpeg",
+      link: "https://github.com/Cromero100/Focus-Up",
+      title: "FocusUp",
+      description:
+        "Aplicación móvil para el seguimiento de objetivos y productividad.",
+      tags: ["React Native", "MongoDB", "Node.js"],
+    },
+    {
+      image: "src/assets/Proyectos/Luda.png",
+      link: "https://youtu.be/5A5gCF2eJg4",
+      title: "Luda",
+      description: "Aplicación web para el cuidado mental.",
+      tags: ["NextJs", "MongoDB", "Node.js"],
+    },
   ];
 
   return (
     <div className="h-screen h-screen text-white">
+      <ShapeOverlay />
+      <TargetCursor spinDuration={2} hideDefaultCursor />
       <InfiniteMenu items={items} />
     </div>
   );
