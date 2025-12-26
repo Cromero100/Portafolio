@@ -5,7 +5,7 @@ import TargetCursor from "../components/TargetCursor";
 import Navbar from "../components/Navbar";
 
 // 📸 IMPORTAR IMÁGENES (Vite + Vercel friendly)
-import softwarePos from "../assets/Proyectos/softwarePos.png";
+import softwarePos from "../assets/Proyectos/SoftwarePos.png";
 import aetheris from "../assets/Proyectos/Aetheris.png";
 import ecommerce from "../assets/Proyectos/Ecommerce.png";
 import netquesma from "../assets/Proyectos/netquesma.png";
