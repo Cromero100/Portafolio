@@ -18,14 +18,14 @@ import SplashCursor from "../components/SplashCursor";
 import BlurText from "../components/BlurText";
 import AnimatedContent from "../components/AnimatedContent";
 import Navbar from "../components/Navbar";
-import coniti from "../assets/universidad/coniti.png";
-import coniti2 from "../assets/universidad/coniti2.png";
-import feriaProyectos from "../assets/universidad/feriaproyectos.jpg";
-import ferias from "../assets/universidad/ferias.jpg";
-import popayan1 from "../assets/universidad/popayan1.jpeg";
-import popayan2 from "../assets/universidad/popayan2.jpeg";
-import popayan3 from "../assets/universidad/popayan3.jpeg";
-import reconocimiento from "../assets/universidad/reconocimiento.jpeg";
+import coniti from "../assets/Universidad/coniti.png";
+import coniti2 from "../assets/Universidad/coniti2.png";
+import feriaProyectos from "../assets/Universidad/feriaproyectos.jpg";
+import ferias from "../assets/Universidad/ferias.jpg";
+import popayan1 from "../assets/Universidad/popayan1.jpeg";
+import popayan2 from "../assets/Universidad/popayan2.jpeg";
+import popayan3 from "../assets/Universidad/popayan3.jpeg";
+import reconocimiento from "../assets/Universidad/reconocimiento.jpeg";
 
 import TargetCursor from "../components/TargetCursor";
 const techLogos = [
