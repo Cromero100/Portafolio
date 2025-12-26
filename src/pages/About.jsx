@@ -11,13 +11,22 @@ import { IoLogoElectron } from "react-icons/io5";
 import { FaVuejs, FaNodeJs, FaPython } from "react-icons/fa";
 import { DiPostgresql, DiMysql } from "react-icons/di";
 import SplitText from "../components/SplitText";
-import { FaGithub, FaLinkedin} from "react-icons/fa6";
+import { FaGithub, FaLinkedin } from "react-icons/fa6";
 import { SiGmail } from "react-icons/si";
 import ImageTrail from "../components/ImageTrail";
 import SplashCursor from "../components/SplashCursor";
 import BlurText from "../components/BlurText";
 import AnimatedContent from "../components/AnimatedContent";
 import Navbar from "../components/Navbar";
+import coniti from "../assets/universidad/coniti.png";
+import coniti2 from "../assets/universidad/coniti2.png";
+import feriaProyectos from "../assets/universidad/feriaproyectos.jpg";
+import ferias from "../assets/universidad/ferias.jpg";
+import popayan1 from "../assets/universidad/popayan1.jpeg";
+import popayan2 from "../assets/universidad/popayan2.jpeg";
+import popayan3 from "../assets/universidad/popayan3.jpeg";
+import reconocimiento from "../assets/universidad/reconocimiento.jpeg";
+
 import TargetCursor from "../components/TargetCursor";
 const techLogos = [
   { node: <SiReact />, title: "React", href: "https://react.dev" },
@@ -49,7 +58,7 @@ const techLogos = [
   { node: <FaPython />, title: "Python", href: "https://www.python.org" },
 ];
 
-const About= () => {
+const About = () => {
   return (
     <section className="min-h-screen bg-zinc-950 text-zinc-100 px-6 py-28">
       <Navbar />
@@ -138,14 +147,14 @@ const About= () => {
               >
                 <ImageTrail
                   items={[
-                    "src/assets/universidad/coniti.png",
-                    "src/assets/universidad/coniti2.png",
-                    "src/assets/universidad/feriaproyectos.jpg",
-                    "src/assets/universidad/ferias.png",
-                    "src/assets/universidad/popayan1.jpeg",
-                    "src/assets/universidad/popayan2.jpeg",
-                    "src/assets/universidad/popayan3.jpeg",
-                    "src/assets/universidad/reconocimiento.jpeg",
+                    coniti,
+                    coniti2,
+                    feriaProyectos,
+                    ferias,
+                    popayan1,
+                    popayan2,
+                    popayan3,
+                    reconocimiento,
                   ]}
                   variant={2}
                 />
