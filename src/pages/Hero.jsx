@@ -8,7 +8,7 @@ import Lanyard from "../components/Lanyard";
 import AnimatedContent from "../components/AnimatedContent";
 import Navbar from "../components/Navbar";
 import Balatro from "../components/Balatro";
-function Hero() {
+const Hero = () => {
   return (
     <section className="relative w-full min-h-screen flex items-center justify-center text-white overflow-hidden">
       <Navbar />
