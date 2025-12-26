@@ -49,7 +49,7 @@ const techLogos = [
   { node: <FaPython />, title: "Python", href: "https://www.python.org" },
 ];
 
-const About = () => {
+const About= () => {
   return (
     <section className="min-h-screen bg-zinc-950 text-zinc-100 px-6 py-28">
       <Navbar />
